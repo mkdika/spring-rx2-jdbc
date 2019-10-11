@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: development
+  output:
+    ansi:
+      enabled: ALWAYS
+server:
+  port: 8084
+
+database:
+  url: "jdbc:postgresql://localhost:5433/demo"
+  username: postgres
+  password: postgres
+  pool:
+    max-size: 100
